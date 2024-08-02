@@ -1,4 +1,6 @@
-# Assignment---Data-1202
+# Assignment---Data-1202<BR>
+Saikrishna Mudaliar<BR>
+Student Number - 100958445
 
 <B>Project Title</B> <BR>
 In this project code, we evaluated the performance of Support Vector Machine (SVM) and Naive Bayes (NB) models on the drugdataset.csv.
