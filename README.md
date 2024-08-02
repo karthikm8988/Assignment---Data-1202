@@ -8,4 +8,14 @@ Jupyter Notebook via Anaconda to run Python
 
 Installing <BR>
 import pandas 
-import pandas as pd and load the dataset
+import pandas as pd and load the dataset<BR>
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler, LabelEncoder
+from sklearn.svm import SVC
+from sklearn.naive_bayes import GaussianNB
+from sklearn.metrics import classification_report, accuracy_score
+
+# Load the dataset
+file_path = '/mnt/data/drugdataset.csv'
+data = pd.read_csv(file_path)
